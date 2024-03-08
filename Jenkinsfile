@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        build 'PES2UG19CS070_1'
+        build 'PES2UG21CS070_1'
         sh 'cd main \ng++ main.cpp -o output'
       }
     }
